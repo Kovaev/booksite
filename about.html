@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ua">
+	<head>
+		<title>Book</title>
+		<link rel="stylesheet" href="css/about.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<a href="" class="header__logo">
+					<img src="img/logo.png" alt="">
+				</a>
+				<nav class="header__menu">
+					<ul class="header__list">
+						<li><a href="index.html" class="header__link ">Головна</a></li>
+						<li><a href="tovar.html" class="header__link">Книги</a></li>
+						<li><a href="" class="header__link active">Про нас</a></li>
+					</ul>
+				</nav>
+			</header>
+			<main class="main">
+				<div class="main__text">
+					Заповнивши анкету - зможете дізнатися про нас більше)
+				</div>
+				<div class="anketa">
+					<form action="" method="">
+						<h2>Анкета</h2>
+						<p>Заповніть анкету для вступу до нашого книжкового клубу <i>"Сімейний книжковий клуб"</i></p>
+						<p>
+							<label for="first_name">Введіть своє ім'я</label><br>
+							<input id="first_name" type="text" placeholder="Ім'я">
+						</p>       
+						<p>
+							<label for="pswrd">Введіть пароль</label><br>
+							<input id="pswrd" type="password">
+						</p>						
+						<p>
+							<label>Стать</label>    
+							<label>
+								<input type="radio" name="male">
+								<i><b>Жіноча</b></i>
+							</label>
+							<label>
+								<input type = "radio" name="male">
+								<i><b>Чоловіча</b></i>
+							</label>
+						</p>
+						<p>
+							<label>Яким книжкам Ви віддаєте перевагу?</label><br>
+							<label>
+									<i>
+										<input type="checkbox"> Рукописні<br>
+										<input type="checkbox"> Надруковані<br>
+										<input type="checkbox"> Аудіо<br>
+										<input type="checkbox"> Електронні<br>
+									</i>             
+							</label>
+						</p>
+						<p>
+							<label>Які жанри Вам до вподоби?</label><br>
+							<select multiple>
+								<option>Романи про кохання</option>
+								<option>Історико-пригодницькі</option>
+								<option>Детективи</option>
+								<option>Романи</option>
+								<option>Фантастика</option>
+							</select>
+						</p>
+						
+							<label>Залиште відгук про останню книжку, що Ви читали</label><br>
+							<textarea rows="10" cols="55" placeholder="Починайте тут"></textarea><br>
+						
+						<button class="anketa__button" type = "submit">Готово</button>
+						<button class="anketa__button red" type="reset">Очистити</button>
+					</form>
+				</div>				
+			</main>
+			<footer class="footer">
+				<div class="footer__copy">©2022</div>
+				<div class="footer__text">Усі права захищено</div>
+			</footer>
+		</div>
+	</body>
+</html>
